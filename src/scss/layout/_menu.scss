@@ -1,0 +1,19 @@
+@use 'base/variables' as v;
+
+.menu {
+    padding: 0rem;
+    margin: 0;
+    color: v.$white;
+
+    .content-menu {
+        background-color: v.$primaryDark;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        
+
+        p {
+            color: v.$white;
+        }
+    }
+}
