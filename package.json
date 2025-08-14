@@ -1,0 +1,24 @@
+{
+  "name": "2dolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass:css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Juan Ramon Arrieta Anaya",
+  "license": "ISC",
+  "description": "Creando un to do list",
+  "dependencies": {
+    "sass": "^1.90.0"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1"
+  }
+}
