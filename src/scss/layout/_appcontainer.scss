@@ -1,0 +1,6 @@
+@use 'base/variables' as v;
+
+.app-container {
+    display: flex;
+    height: calc(100vh - 15rem);
+}

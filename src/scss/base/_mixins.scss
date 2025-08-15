@@ -41,3 +41,8 @@
     padding: 0;
     list-style: none;
 }
+@mixin reset-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
