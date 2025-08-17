@@ -7,7 +7,9 @@
     <title>2DoList</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&display=swap"rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Mozilla+Text:wght@200..700&display=swap"
+        rel="stylesheet">
     <link href="build/css/app.css" rel="stylesheet">
 </head>
 
@@ -19,25 +21,28 @@
     </header>
     <div class="app-container">
         <section class="menu">
-        <div class="content-menu">
-            <h2 class="name-menu">Menu</h2>
-            <ul class="menu-list">
-                <li><button class="menu-btn">Show All</button></li>
-                <li><button class="menu-btn">Today</button></li>
-                <li><button class="menu-btn">Important</button></li>
-                <li><button class="menu-btn">Completed</button></li>
-            </ul>
-        </div>
-    </section>
-    <main>
-        <div class="search-bar">
-            <button class="addtaskBTN">Add Task</button>
-            <input id="search-task" class="search-task" type="text" placeholder="Search tasks">
-        </div>
-        <div class="main-content">
-
-        </div>
-    </main>
+            <div class="content-menu">
+                <h2 class="name-menu">Menu</h2>
+                <ul class="menu-list">
+                    <li><button class="menu-btn">Show All</button></li>
+                    <li><button class="menu-btn">Today</button></li>
+                    <li><button class="menu-btn">Important</button></li>
+                    <li><button class="menu-btn">Completed</button></li>
+                </ul>
+            </div>
+        </section>
+        <main>
+            <div class="search-bar">
+                <nav>
+                    <button class="addtaskBTN">Add Task</button>
+                    <input id="search-task" class="search-task" type="text" placeholder="Search tasks">
+                </nav>
+            </div>
+            <div class="main-content">
+                <h3>Tasks</h3>
+                <ul class="tasks-list"></ul>
+            </div>
+        </main>
     </div>
 </body>
 

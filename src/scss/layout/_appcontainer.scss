@@ -1,6 +1,9 @@
 @use 'base/variables' as v;
 
 .app-container {
-    display: flex;
-    height: calc(100vh - 15rem);
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    grid-template-areas: "menu main";
+    min-height: 100vh;  
+       
 }
